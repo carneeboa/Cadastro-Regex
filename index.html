@@ -38,7 +38,7 @@
 
 			var user = document.getElementById("senha").value;
 			var user2 = document.getElementById("senha");
-			var re = /^(?=.*[A-Z])(?=.*[!#@$%&])(?=.*[0-9])(?=.*[a-z]).{6,15}$/;
+			var re = /^(?=.*[A-Z])(?=.*[!#@*$%&])(?=.*[0-9])(?=.*[a-z]).{6,15}$/;
 			if (re.test(user)) {
                 user2.style.border = "green solid 3px";
 				return true;
